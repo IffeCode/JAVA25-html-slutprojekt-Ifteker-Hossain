@@ -1,0 +1,64 @@
+body {
+    background-color: antiquewhite;
+}
+
+.main-body>div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+    
+}
+
+.main-body>div>.product-card {
+    display: flex;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    max-width: 100%;
+
+}
+
+
+.main-body>.product-card-small>img {
+    border: 1px solid black;
+    display: flex;
+    border-radius: 50%;
+    margin: 1rem;
+    max-width: 100%;
+
+}
+
+.main-body>.main-body-text {
+   
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-self: center;
+
+
+}
+
+
+@media screen and (min-width: 400px) {
+
+    .main-body {
+        flex-basis: 20%;
+    }
+
+    .main-body {
+        flex-basis: 20%;
+    }
+
+
+}
+
+@media screen and (min-width: 850px) {
+    .main-body {
+        flex-basis: 50%;
+    }
+
+    .main-body {
+        flex-basis: 50%;
+    }
+}
